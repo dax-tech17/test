@@ -51,6 +51,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: build/libs/yourmod-1.0.0-snapshot.jar  # Replace with your .jar name
-        asset_name: yourmod-1.0.0-snapshot.jar
+        asset_path: build/libs/toms_storage_fabric-1.21-1.0.0-snapshot.jar  # Replace with your .jar name
+        asset_name: toms_storage_fabric-1.21-1.0.0-snapshot.jar
         asset_content_type: application/java-archive
