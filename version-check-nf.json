@@ -12,7 +12,11 @@
 		"1.21.5-latest": "2.4.2",
 		"1.21.6-latest": "2.4.1",
 		"1.21.7-latest": "2.4.1",
-		"1.21.8-latest": "2.4.2"
+		"1.21.8-latest": "2.4.2",
+		"1.21.9-latest": "2.4.3"
+	},
+	"1.21.9": {
+		"2.4.3": "support for snapshot 25w33a"
 	},
 	"1.21.8": {
 		"2.4.2": "Added configurable hopper cooldown (#597)\nFixed crash with inventory proxy (Closes #609)\nFixed crash with legendary tooltips (Closes #603)\nFixed crash with REI on 1.21.6+ (Closes #610)"
